@@ -4,7 +4,7 @@ This is my professional portfolio that communicates my experience, skill and exp
 ## Description 
 The goal of this project is to deliver a high-quality one-page website for myself, Joe Higgs. The intention is to promote myself to potential clients and employers in order to secure employment. As I continue to grow and develop within this field, I will continue to update it and demonstrate my skills through projects that I will add to the portfolio. The priority was to ensure effective use of html and css elements to construct a page which functions as intended. By applying my skills in these fields, I have been able to fully construct the page without any functionality issues. I have also taken time to extensively comment the .html and .css files so my work is understood. 
 
-**https://nonebula.github.io/professional-portfolio/**
+**https://nonebula.github.io/react-portfolio/**
 
 ## Table of Contents
 
