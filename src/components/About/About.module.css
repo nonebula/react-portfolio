@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: var(--color-dark);
   border-radius: 15px;
   padding: 75px;
   margin-top: 125px;
@@ -12,7 +12,7 @@
 }
 
 .title {
-  color: var(--color-text);
+  color: var(--color-accent);
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -21,7 +21,7 @@
 
 .contentBio {
   padding-top: 30px;
-  color: var(--color-text);
+  color: var(--color-accent);
   flex: 1;
   margin-right: 20px;
   font-family: var(--font-roboto);

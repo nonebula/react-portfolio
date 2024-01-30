@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    background-color: var(--color-accent);
     box-shadow: 0 16px 14 px 0 #04152d;
     max-width: 345px;
 }
@@ -64,7 +64,9 @@
     font-size: 24px;
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-dark);
+    color: var(--color-accent);
+    align-items: center;
+    background-color: var(--color-primary);
     padding: 2px 22px ;
 }
 
@@ -77,10 +79,10 @@
 
 .cardLink {
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-bg);
     font-size: 28px;
     font-weight: 600;
     border-radius: 100px;
-    background: var(--color-primary);
+    background: var(--color-dark);
     padding: 2px 22px;
 }
