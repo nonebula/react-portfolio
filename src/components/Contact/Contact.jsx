@@ -1,12 +1,33 @@
 import React from 'react'
-import styles from "./About.module.css"
+import styles from "./Contact.module.css"
 import { getImageUrl } from '../../utils'
 
 
-export const About = () => {
+export const Contact = () => {
   return (
-    <section className={styles.container}>
-  
-    </section>
+    <footer className={styles.container} id="contact">
+      <div className={styles.text}>
+        <h2>Contact</h2>
+        <p>Contact me today!</p>
+      </div>
+      <ul className={styles.links}>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon"/>
+          <a href="mailto:joe.higgs@live.com">joe.higgs@live.com</a>
+        </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/linkedinIcon.png")} alt="Linkedin Icon"/>
+          <a href="www.linkedin.com/joelloydhiggs">LinkedIn</a>
+        </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="Github Icon"/>
+          <a href="www.github.com/no_nebula">Github</a>
+        </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon"/>
+          <a href="phoneto: ">07753911825</a>
+        </li>
+      </ul>
+    </footer>
   )
 }
