@@ -4,7 +4,7 @@
         "organisation": "Freelance",
         "startDate": "September 2023",
         "endDate": "February 2024",
-        "experiences": ["Wordpress", "SEO", "PHP"],
+        "experiences": ["Wordpress", "SEO", "Security"],
         "imageSrc": "history/askYourDietitianIcon.png"
     },
     {
@@ -12,7 +12,7 @@
         "organisation": "EdX",
         "startDate": "October 2023",
         "endDate": "February 2024",
-        "experiences": ["HTML", "CSS", "Javascript", "And many more..."],
+        "experiences": ["HTML & CSS", "Javascript", "And many more..."],
         "imageSrc": "history/edxIcon.png"
     },
     {
@@ -20,7 +20,7 @@
         "organisation": "Codecademy",
         "startDate": "September 2023",
         "endDate": "February 2024",
-        "experiences": ["HTML", "CSS", "Javascript", "And many more..."],
+        "experiences": ["HTML & CSS", "Javascript", "And many more..."],
         "imageSrc": "history/codecademyIcon.png"
     }
 ]

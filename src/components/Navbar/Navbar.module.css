@@ -21,6 +21,10 @@
   display: flex;
 }
 
+.desktopHidden {
+  display: none;
+}
+
 .menuItems {
   display: flex;
   gap: 40px;
@@ -49,7 +53,7 @@
     z-index: 3;
   }
 
-  .menuBtn {
+  .desktopHidden {
     display: block;
     cursor: pointer;
   }

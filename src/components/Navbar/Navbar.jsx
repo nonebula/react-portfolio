@@ -9,11 +9,11 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        Joe Higgs
       </a>
       <div className={styles.menu}>
         <img
-          className={styles.menuBtn}
+          className={`${styles.menuBtn} ${styles.desktopHidden}`}
           src={
             menuOpen
               ? getImageUrl("nav/closeIcon.png")
@@ -31,9 +31,6 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
           </li>
           <li>
             <a href="#projects">Projects</a>

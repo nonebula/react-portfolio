@@ -17,6 +17,7 @@
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+    align-items: center;
 }
 
 .title {
@@ -25,8 +26,7 @@
     margin-bottom: 30px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgbe(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    color: var(--color-text);
 }
 
 .description{
@@ -49,7 +49,8 @@
 .heroImg {
     width: 50%;
     z-index: 1;
-
+    border-radius: 100px;
+    height: 500px;
     animation-name: floating;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -105,5 +106,13 @@
 
     .content {
         align-items: center;
+        text-align: center;
+    }
+
+    .heroImg {
+        width: 50%;
+        z-index: 1;
+        height: 350px;
+        padding-bottom: 50px;
     }
 }
