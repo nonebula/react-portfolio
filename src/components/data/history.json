@@ -4,7 +4,7 @@
         "organisation": "Template",
         "startDate": "Template",
         "endDate": "Template",
-        "experiences": "Template",
+        "experiences": ["Template"],
         "imageSrc": "history/template.png"
     },
     {
@@ -12,7 +12,7 @@
         "organisation": "Template",
         "startDate": "Template",
         "endDate": "Template",
-        "experiences": "Template",
+        "experiences": ["Template"],
         "imageSrc": "history/template.png"
     },
     {
@@ -20,7 +20,7 @@
         "organisation": "Template",
         "startDate": "Template",
         "endDate": "Template",
-        "experiences": "Template",
+        "experiences": ["Template"],
         "imageSrc": "history/template.png"
-    },
+    }
 ]
