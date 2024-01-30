@@ -23,10 +23,6 @@ export const Contact = () => {
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github Icon"/>
           <a href="www.github.com/no_nebula">Github</a>
         </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon"/>
-          <a href="phoneto: ">07753911825</a>
-        </li>
       </ul>
     </footer>
   )

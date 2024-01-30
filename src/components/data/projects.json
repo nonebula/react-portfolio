@@ -2,7 +2,7 @@
     {
         "title": "Ask Your Dietitian",
         "description": "A WordPress project for my client, a dietitian. Website migrated and maintained and built according to wireframe.",
-        "imageSrc": "projects/askyourdietitian.png",
+        "imageSrc": "projects/askYourDietitian.png",
         "alt": "Ask Your Dietitian Website Screenshot",
         "link": "https://www.askyourdietitian.com/",
         "repo": "No Repo Available",
@@ -12,7 +12,7 @@
     {
         "title": "Healing Minds Media",
         "description": "A personal coaching website designed for a client from start to finish. Designed through Figma and build utilizing Elementor Pro.",
-        "imageSrc": "projects/healingmindsmedia.png",
+        "imageSrc": "projects/placeholderImage.png",
         "alt": "Healing Minds Media Website Screenshot",
         "link": "https://www.healingmindsmedia.com",
         "repo": "No Repo Available",
@@ -22,7 +22,7 @@
     {
         "title": "Group Project 2",
         "description": "Group Project 2 Description",
-        "imageSrc": "projects/groupproject2.png",
+        "imageSrc": "projects/placeholderImage.png",
         "alt": "Group Project 2 Website Screenshot",
         "link": "https://nonebula.github.io/group-project-2/",
         "repo": "https://github.com/nonebula/group-project-2",
@@ -32,7 +32,7 @@
     {
         "title": "Team Profile Generator",
         "description": "A node command-line application that generates team members based on user input. It also uses tests to debug.",
-        "imageSrc": "projects/teamprofilegenerator.png",
+        "imageSrc": "projects/teamGenerator.png",
         "alt": "Team Profile Generator Screenshot",
         "link": "https://nonebula.github.io/efficient-team-profile-generator/",
         "repo": "https://github.com/nonebula/efficient-team-profile-generator",
@@ -42,7 +42,7 @@
     {
         "title": "Delicious Recipe Generator",
         "description": "A recipe generator that generates recipes based on user ingredient selections. Users can save their chosen recipes to local storage and retrieve them on a dedicated page.",
-        "imageSrc": "projects/deliciousrecipegenerator.png",
+        "imageSrc": "projects/deliciousRecipeGenerator.png",
         "alt": "Delicious Recipe Generator Screenshot",
         "link": "https://nonebula.github.io/delicious-recipe-generator/",
         "repo": "https://github.com/nonebula/delicious-recipe-generator",
@@ -52,7 +52,7 @@
     {
         "title": "README Generator",
         "description": "README Generator to generate READMEs based on instructions.",
-        "imageSrc": "projects/readmegenerator.png",
+        "imageSrc": "projects/readmeGenerator.png",
         "alt": "Smart README Generator screenshot",
         "link": "https://nonebula.github.io/smart-readme-generator/",
         "repo": "https://github.com/nonebula/smart-readme-generator",
@@ -62,7 +62,7 @@
     {
         "title": "Weather Dashboard API",
         "description": "A dashboard that utilizes web APIs and user input to return up-to-date weather info.",
-        "imageSrc": "projects/weatherdashboard.png",
+        "imageSrc": "projects/weatherDashboard.png",
         "alt": "Delicious Recipe Generator Website Screenshot",
         "link": "https://nonebula.github.io/open-weather-map/",
         "repo": "https://github.com/nonebula/open-weather-map",
@@ -72,7 +72,7 @@
     {
         "title": "Daily Work Planner",
         "description": "A daily planner app that saves user input and tracks time to show past, present and future.",
-        "imageSrc": "projects/dailyworkplanner.png",
+        "imageSrc": "projects/dailyWorkPlanner.png",
         "alt": "Daily Work Planner screenshot",
         "link": "https://nonebula.github.io/fantastic-daily-planner/",
         "repo": "https://github.com/nonebula/fantastic-daily-planner",
@@ -82,7 +82,7 @@
     {
         "title": "DOM Knowledge Quiz",
         "description": "A coding quiz to test user's knowledge of Javascript through DOM manipulation.",
-        "imageSrc": "projects/domknowledgequiz.png",
+        "imageSrc": "projects/domKnowledgeQuiz.png",
         "alt": "Quiz Project screenshot",
         "link": "https://nonebula.github.io/super-awesome-quizmaster/",
         "repo": "https://github.com/nonebula/super-awesome-quizmaster",
@@ -92,7 +92,7 @@
     {
         "title": "Password Generator",
         "description": "An app that takes user input through prompts and generates a secure password.",
-        "imageSrc": "projects/passwordgenerator.png",
+        "imageSrc": "projects/passwordGenerator.png",
         "alt": "Fancy Password Generator screenshot",
         "link": "https://nonebula.github.io/fancy-magic-password-generator/",
         "repo": "https://github.com/nonebula/fancy-magic-password-generator",
@@ -102,7 +102,7 @@
     {
         "title": "Console Log Financials",
         "description": "A javascript analysis of some finances using console.log to solve equations.",
-        "imageSrc": "projects/consolelogfinancials.png",
+        "imageSrc": "projects/consoleLogFinancials.png",
         "alt": "console.log Finances Calculations screenshot",
         "link": "https://nonebula.github.io/super-awesome-quizmaster/",
         "repo": "https://github.com/nonebula/super-awesome-quizmaster",
@@ -110,9 +110,19 @@
     },
 
     {
+        "title": "Professional Portfolio",
+        "description": "My professional portfolio page built prior to the react portfolio.",
+        "imageSrc": "projects/professionalPortfolio.png",
+        "alt": "Professional Portfolio screenshot",
+        "link": "https://nonebula.github.io/Professional-Portfolio/",
+        "repo": "https://github.com/nonebula/Professional-Portfolio",
+        "skills": ["Bootstrap HTML", "HTML", "CSS", "Github"]
+    },
+
+    {
         "title": "Bootstrap Portfolio",
         "description": "My first boostrap portfolio page.",
-        "imageSrc": "projects/bootstrapportfolio.png",
+        "imageSrc": "projects/bootstrapPortfolio.png",
         "alt": "Bootstrap Portfolio screenshot",
         "link": "https://nonebula.github.io/Bootstrap-Portfolio/",
         "repo": "https://github.com/nonebula/Bootstrap-Portfolio",
