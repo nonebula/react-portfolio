@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { getImageUrl } from '../../utils';
-import styles from "./Projects.module.css";
+import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({
     project: { title, imageSrc, description, skills, link, repo },

@@ -1,0 +1,72 @@
+@import "../../vars.css";
+
+.cardContainer {
+    display: grid;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--color-accent);
+    box-shadow: 1 16px 14px 0 #04152d;
+    max-width: 345px;
+    height: 500px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cardTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin-bottom: 10px;
+}
+
+.cardDescription {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.cardSkills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.cardSkill {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    color: var(--color-accent);
+    background-color: var(--color-primary);
+    padding: 5px 15px;
+}
+
+.cardLinks { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardLink {
+    text-decoration: none;
+    color: var(--color-bg);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: var(--color-accent);
+    background: var(--color-dark);
+    padding: 5px 15px;
+    transition: background-color 0.3s;
+}
+
+.cardLink:hover {
+    background-color: var(--color-secondary);
+}
