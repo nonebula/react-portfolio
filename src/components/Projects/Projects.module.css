@@ -1,3 +1,4 @@
+/* Import variables */
 @import "../../vars.css";
 
 .container {
@@ -5,6 +6,8 @@
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of projects */
 }
 
 .title {
@@ -14,14 +17,18 @@
     text-transform: uppercase;
 }
 
-.projects {
-    padding-top: 30px;
-    margin-top: 40px;
+.projectsContainer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
+    justify-content: flex-start;
+    padding: 20px 0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.projects {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping of projects */
+    gap: 20px;
+    padding-bottom: 20px;
 }

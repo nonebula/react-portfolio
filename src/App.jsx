@@ -4,7 +4,8 @@ import { Hero } from "./components/Hero/Hero";
 import { About } from "./components/About/About";
 import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects/Projects";
-// import { DisplayProject } from "./components/DisplayProject/DisplayProject";
+// import { ProjectsCore } from "./components/DisplayProject/ProjectsCore";
+// import { ProjectRow } from "./components/DisplayProject/ProjectsCore";
 // import { Testimonials } from "./components/Testimonials/Testimonials";
 import { Contact } from "./components/Contact/Contact";
 
@@ -16,7 +17,8 @@ function App() {
     <About />
     <Skills />
     <Projects />
-    {/* <DisplayProject />*/}
+    {/* <ProjectsCore />
+    <ProjectRow /> */}
     {/* <Testimonials /> */}
     <Contact />
   </div>;

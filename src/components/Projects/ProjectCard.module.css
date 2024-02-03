@@ -1,35 +1,55 @@
+/* Import variables */
 @import "../../vars.css";
 
+/* ProjectCard.module.css */
+
 .cardContainer {
-    display: grid;
+    width: 300px; /* Set desired width for each project card */
+    height: 400px; /* Set desired height for each project card */
+    margin: 10px;
+    position: relative;
     overflow: hidden;
-    border-radius: 10px;
-    background-color: var(--color-accent);
-    box-shadow: 1 16px 14px 0 #04152d;
-    max-width: 345px;
-    height: 500px;
-    object-fit: contain;
-    padding: 20px;
+    border-radius: 10px; /* Example border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.cardContainer:hover .overlay {
+    opacity: 1;
 }
 
 .cardImage {
     width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    height: 200px; /* Set desired height for the project image */
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .cardTitle {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--color-dark);
+    font-size: 20px;
+    font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .cardDescription {
     font-size: 16px;
-    font-weight: 400;
-    color: var(--color-primary);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .cardSkills {
@@ -45,19 +65,21 @@
     font-size: 14px;
     font-weight: 400;
     border-radius: 20px;
-    color: var(--color-accent);
-    background-color: var(--color-primary);
     padding: 5px 15px;
+    background-color: var(--color-primary);
+    color: white;
 }
 
-.cardLinks { 
+.cardLinks {
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
 
 .cardLink {
     text-decoration: none;
-    color: var(--color-bg);
     font-size: 16px;
     font-weight: 600;
     border-radius: 20px;
