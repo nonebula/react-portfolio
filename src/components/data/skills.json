@@ -60,6 +60,26 @@
         "description": "Figmas stufsa",
         "imageSrc": "skills/figmaIcon.png",
         "alt": "Figma icon"
-    }
+    },
 
+    {
+        "title": "SQL",
+        "description": "I can ......",
+        "imageSrc": "skills/sqlIcon.png",
+        "alt": "SQL icon"
+    },
+
+    {
+        "title": "Jest",
+        "description": "...",
+        "imageSrc": "skills/jestIcon.png",
+        "alt": "Jest icon"
+    },
+
+    {
+        "title": "Cucumber",
+        "description": "...",
+        "imageSrc": "skills/cucumberIcon.png",
+        "alt": "Cucumber icon"
+    }
 ]

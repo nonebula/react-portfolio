@@ -1,0 +1,61 @@
+[
+  {
+    "review": "Excellent Work",
+    "name": "Course Assessor",
+    "project": "Group Project 2"
+  },
+
+  {
+    "review": "Excellent Work",
+    "name": "Paul C",
+    "project": "Healing Minds Media"
+  },
+
+  {
+    "review": "Excellent Work",
+    "name": "Laura Coster",
+    "project": "Ask Your Dietitian"
+  },
+
+  {
+    "review": "Hello Joe, First and foremost, congratulations on your exceptional achievement on this assignment! You have effectively demonstrated your ability to develop a command line interface program. After viewing your code, I would like to provide you with some feedback. I commend you for effectively separating your server logic and creating dedicated directories for storing employee logic and tests. Your implementation of the Employee, Manager, Engineer, and Intern classes aligns precisely with the instructions provided in the challenge. All of your tests are also passing, excellent! You have met all of the technical acceptance criteria for this assignment which is by no means an easy task! Furthermore, I would like to commend your frequent comments and commit messages. Remember frequent commits are not only best practice but also help with version control as well as debugging as your projects grow in size. Potential employers will also be looking at your commit history to gain further insight to your coding work flow. Your unwavering dedication and commitment to excellence are truly commendable. I strongly encourage you to maintain this level of enthusiasm throughout your learning journey. Keep up the exceptional work, and continue to impress us with your achievements! -SK",
+    "name": "Course Assessor",
+    "project": "Team Generator"
+  },
+
+  {
+    "review": "Hi Joe, thanks for submitting your assignment. I was able to review your GitHub repo alongside your walkthrough video demonstration. Great work on getting a functional README generator developed - this will prove quite useful in your tenure as a Web developer! Upon analyzing your submission as a whole I was able to confirm the following requirements were met: you demonstrated how to invoke your application, showcased all of the various different prompts, then demonstrated the final product. If you have any questions or concerns, please don't hesitate to reach out to your instructional staff or tutor for more support. Otherwise, nice job! - CG, AA",
+    "name": "Course Assessor",
+    "project": "README Generator"
+  },
+
+  {
+    "review": "Joe you did a fantastic job with the assignment! You met all of the acceptance criteria! All of the necessary information is being displayed when searching for a city, your app stores previously searched for cities in local storage and displays them to the user, and a user is able to repeat a search for a city's current and future weather conditions by clicking on it in the search history. You’ve showcased valuable knowledge and skill on your ability to parse JSON to dynamically generate HTML, using the Fetch API, ability to modify URL headers for authorization and effectively access specific data using template literals and Get methods and being able to use local storage to persist data. These are all important skills to learn and build so great job! Your repo follows good practices for naming conventions, indentations and file structure. Keep up the good work!",
+    "name": "Course Assessor",
+    "project": "Weather Dashboard API"
+  },
+
+  {
+    "review": "Hi Joe, Good job on the Day Planner Challenge! Upon launching your application the browser loads smoothly and without error. The user is then presented with the current date and time blocks ranging from 9am-5pm that allows them to add notes about their day. Good job using jQuery to dynamically update the DOM to display the current date and color changing time blocks. This makes for a pleasant user experience. All of the user's notes are stored in local storage so when the user revisits the application all notes are preserved for them to reference. Your GitHub repository follows best practices for file structure and contains a unique repo name avoiding words like 'challenge', 'homework' or 'assignment' and you were able to show your work by pushing multiple descriptive commits to your repository. In addition to your repos file structure, your codebase is clean and properly laid out, follows best practices for indentation and naming conventions. Well done creating a quality README file that includes a brief description, a screenshot of the completed UI offering a preview of your applications functionality and a link to the deployed site. Overall great job. Keep up the great work! - CG Sam",
+    "name": "Course Assessor",
+    "project": "Daily Planner Challenge"
+  },
+
+  {
+    "review": "Hello Joe, great job on submitting your assignment. It seems like you have put in a lot of hard work into this assignment. Great job on deploying your project as well as getting your code properly uploaded to your GitHub repository. Great job on your code quiz project! I am happy to report that everything regarding your code quiz project is perfect! Great job on having buttons for starting the quiz and viewing the high scores list. Good work on getting the quiz fully functional to track scores and the timer on the right side of the website. Good work on subtracting time whenever answers are incorrect. Good work as well on logging a user's initials and storing their initials and score to local storage. Your application also correctly retrieves those scores from local storage and displays them to the user when they click on the High Scores button. Your code is well commented/formatted and your file structure is organized. Excellent job! I also want to acknowledge the quality of your GitHub repository. Your commit history is highly detailed, showcasing your progress throughout the development process. The commit descriptions are informative and provide valuable insights. Your README file is descriptive and provides a comprehensive overview of your project. I appreciate that you have included a link to the deployed application and included screenshots to enhance the understanding of your project. Well done! Beyond that, you did a great job! I am very impressed with your work. Keep up the hard work on your future assignments! -Central Grader, GC",
+    "name": "Course Assessor",
+    "project": "Quiz Generator"
+  },
+
+  {
+    "review": "Hello Joe and thank you for your submission. Today I will be providing feedback on the code submitted in regards to best practices or any debugging that I might have had to do to get it to run correctly. I will also be providing a grade based on what was submitted and how well it meets the grading criteria. The feedback will include Technical Acceptance Criteria, Deployment, Repository Quality, and Application Quality. ------------------------------------------------------- Let's start with Deployment: The link you submitted are working as expected although one takes me to the repository, the other one to the deployed site. I can see and run the code with no errors in the console! So far so good! ------------------------------------------------------------------ Now let's talk about Technical Acceptance Criteria: When I run through the functions I am met with the expected length prompt which includes validation and checks for the length to be between the appropriate range. I am then met with some confirms asking about the character types I'd like to include, the validation is working in your code, nice job on this! You've done a fantastic job writing clean and concise code and thus completed the main objectives set forth by the criteria! Great job here! ------------------------------------------------------------------- Now we can talk about Repo Quality: You're got a wonderful README! Keep this standard up for every future submission! -------------------------------------------------------------------- Next Application Quality: The application has all the functionality I'd expect from the demo minus the small issue I stated above. You've done a good job combining and implementing all of the concepts learned thus far! Awesome job! --------------------------------------------------------------------- Thank you once again for all of your hard work ! I wish you the best on all future submissions! Hope you have fun along your coding experience!",
+    "name": "Course Assessor",
+    "project": "Password Generator"
+  },
+
+  {
+    "review": "Hello Joe, Fantastic job! Completing the console finance application is a significant accomplishment, and I commend you on successfully tackling this challenging JavaScript project. Your application showcases a robust set of features: - Calculating the total number of months in the dataset. - Determining the net total amount of Profit/Losses over the entire period. - Computing the average of the changes in Profit/Losses throughout the dataset. - Identifying the greatest increase in Profit/Losses (including the corresponding date and amount). - Identifying the greatest decrease in Profit/Losses (including the corresponding date and amount). These calculations provide a comprehensive financial analysis, and it's evident that you've implemented these functionalities effectively. Additionally, your README file is well-detailed, offering clear insights into the application's purpose and functionality. Keep up the hard work and continue to excel in your JavaScript projects!",
+    "name": "Course Assessor",
+    "project": "Console Log Financials"
+  }
+]
