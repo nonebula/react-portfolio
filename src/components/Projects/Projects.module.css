@@ -3,7 +3,7 @@
 
 .container {
     margin-top: 75px;
-    color: var(--color-text);
+    color: var(--universal-heading);
     margin-left: 10%;
     margin-right: 10%;
     overflow-x: auto; /* Enable horizontal scrolling */

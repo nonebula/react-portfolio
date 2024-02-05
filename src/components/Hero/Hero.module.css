@@ -11,35 +11,35 @@
     margin-right: 10%;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--color-text);
-    z-index: 1;
-    align-items: center;
-}
-
 .title {
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 30px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(217, 217, 217, 1) 70%, rgba(217, 217, 217, 0) 120%);
     border-radius: 20px;
-    color: var(--color-text);
+    color: var(--heading-color);
 }
 
 .description{
     font-size: 30px;
     font-family: var(--font-roboto);
+    color: var(--supporting-text-color);
     margin-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--text-color);
+    z-index: 1;
+    align-items: center;
 }
 
 .contactBtn {
     text-decoration: none;
-    background-color: var(--color-primary);
-    color: var(--color-bg);
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
     border-radius: 75px;
     font-size: 30px;
     font-weight: 600;
@@ -47,11 +47,17 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 }
 
+.contactBtn:hover {
+    background-color: var(--btn-color-hover);
+    color: var(--btn-text-color-hover);
+}
+
 .heroImg {
     width: 50%;
     z-index: 1;
     border-radius: 100px;
     height: 500px;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 830px) {

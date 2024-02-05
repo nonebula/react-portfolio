@@ -9,8 +9,8 @@ export const Testimonials = () => {
   return (
     <section className={styles.container} id="testimonials">
       <h2 className={styles.title}>Testimonials</h2>
-        <div className={styles.projectsContainer}>
-          <div className={styles.projects}>
+        <div className={styles.testimonialsContainer}>
+          <div className={styles.testimonials}>
             {testimonials.map((testimonial) => (
               <TestimonialCard key={testimonial.id} testimonial={testimonial}/>
             ))}

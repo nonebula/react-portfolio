@@ -1,5 +1,10 @@
 @import "../../vars.css";
 
+.container {
+  background-color: var(--nav-bg-color);
+  padding-bottom: 50px;
+}
+
 .navbar {
   position: relative;
   display: flex;
@@ -14,7 +19,11 @@
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--logo-color);
+}
+
+.title:hover {
+  color: var(--logo-hover-color);
 }
 
 .menu {
@@ -33,8 +42,12 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  color: var(--nav-text-color);
   text-decoration: none;
+}
+
+.menuItems a:hover {
+  color: var(--nav-text-hover-color);
 }
 
 @media screen and (max-width: 830px) {

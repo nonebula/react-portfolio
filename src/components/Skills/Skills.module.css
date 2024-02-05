@@ -1,14 +1,14 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color: var(--universal-heading);
   margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  color: var(--color-text);
+  color: var(--experience-heading-color);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -38,13 +38,14 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-accent);
+  background-color: var(--skill-card-color);
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 120px;
   height: 120px;
+  margin-right: 25px;
 }
 
 .skillImageContainer img {
@@ -69,10 +70,11 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  background-color:var(--color-dark);
-  color: var(--color-accent);
+  background-color:var(--history-card-color);
+  color: var(--history-text-color);
   border-radius: 10px;
   padding: 25px;
+  margin-left: 25px;
 }
 
 .historyItem img {

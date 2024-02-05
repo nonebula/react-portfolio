@@ -1,32 +1,102 @@
 :root {
-    /* Colours */
-    --color-text: #353535;
-    --color-primary: #3C6E71;
-    --color-secondary: #19376d;
-    --color-accent: #D9D9D9;
-    --color-dark: #284B63;
-    --color-bg: #ffffff;
+  /* Colors */
+  --color-text: hsla(206, 5%, 30%, 1); /* Dark gray for text */
+  --color-primary: hsla(211, 89%, 46%, 1); /* Rich blue for primary elements */
+  --universal-heading: hsla(
+    211,
+    89%,
+    46%,
+    1
+  ); /* Rich blue for primary elements */
+  --color-secondary: hsla(
+    206,
+    100%,
+    25%,
+    1
+  ); /* Dark blue for secondary elements */
+  --color-accent: hsla(
+    17,
+    100%,
+    57%,
+    1
+  ); /* Vibrant orange for accentuating buttons */
+  --color-dark: hsla(0, 0%, 38%, 1); /* Medium gray for contrast */
+  --color-light: hsla(0, 0%, 68%, 1); /* Medium gray for contrast */
+  --color-bg: hsla(0, 0%, 96%, 1); /* Light gray for background */
 
+  /* Background Coloring */
+  --background-primary: var(--color-bg);
+  --background-secondary: hsla(
+    0,
+    0%,
+    100%,
+    1
+  ); /* White for secondary background elements */
+  --background-contrasting: var(--color-dark);
 
-    --color-text: #353535;
+  /* Navigation Styling */
+  --logo-color: var(--color-primary);
+  --logo-hover-color: var(--color-accent);
 
-/* RGBA: rgba(53, 53, 53, 1)
---color-primary: #3C6E71;
+  --nav-bg-color: var(--color-secondary); /* Updated */
+  --nav-text-color: var(--color-accent);
+  --nav-text-hover-color: var(--universal-heading);
 
-RGBA: rgba(60, 110, 113, 1)
---color-secondary: #19376d;
+  /* Hero Styling */
+  --heading-color: var(--color-accent);
+  --heading-secondary-color: var(--color-primary);
+  --supporting-text-color: var(--color-text);
 
-RGBA: rgba(25, 55, 109, 1)
---color-dark: #D9D9D9;
+  --btn-color: var(--color-accent);
+  --btn-text-color: hsla(0, 0%, 100%, 1); /* White text for button contrast */
+  --btn-color-hover: hsla(12, 88%, 50%, 1); /* Darker shade for button hover */
+  --btn-text-color-hover: var(--btn-text-color);
 
-RGBA: rgba(217, 217, 217, 1)
---color-accent: #284B63;
+  /* About Styling */
+  --about-card-color: var(--color-secondary);
+  --about-heading-color: var(--color-accent);
+  --about-text-color: var(--color-bg);
 
-RGBA: rgba(40, 75, 99, 1)
---color-bg: #ffffff;
+  /* Skills & Experience Styling */
+  --history-card-color: var(--color-light);
+  --skill-card-color: var(--color-secondary);
 
-RGBA: rgba(255, 255, 255, 1) */
+  --history-heading-color: var(--color-secondary);
+  --history-secondary-heading-color: var(--color-primary);
+  --history-text-color: var(--color-secondary);
+  --skill-text-color: var(--color-accent);
 
-    /* Fonts */
-    --font-roboto: "Roboto";
-  }
+  /* Project Card Styling */
+  --project-card-color: hsla(0, 0%, 100%, 1); /* White cards for projects */
+  --project-overlay-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Semi-transparent overlay on project images */
+
+  --project-heading-color: var(--color-primary);
+  --project-text-color: var(--color-bg);
+
+  --project-skills-color: var(--color-secondary);
+
+  --project-visit-text-color: var(--color-dark); /* Updated */
+  --project-visit-color: var(--color-accent);
+  --project-visit-hover-color: var(--color-secondary);
+
+  --project-repo-text-color: var(--color-dark);
+  --project-visit-repo-color: var(--color-accent);
+  --project-repo-hover-color: var(--color-secondary);
+
+  /* Testimonial Styling */
+  --testimonial-card-color: var(--color-light);
+  --testimonial-heading-color: var(--color-secondary);
+  --testimonial-secondary-heading-color: var(--color-accent);
+  --testimonial-body-color: var(--color-secondary);
+
+  /* Contact Styling */
+  --contact-heading-color: var(--color-primary);
+  --contact-tagline-color: hsla(0, 0%, 100%, 1);
+  --contact-link-color: var(--color-secondary);
+  --contact-link-hover-color: var(--color-text);
+}
