@@ -12,7 +12,7 @@ export const Hero = () => {
           resume.
         </p>
         <a
-          href="./assets/downloads/cv.pdf"
+          href={getImageUrl("downloads/cv.pdf")}
           download
           role="button"
           className={styles.contactBtn}
